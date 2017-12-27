@@ -16,7 +16,7 @@ Each leaf node contains a single chunk, whose LOD is updated by the tree. The pl
 
 Generated with conventional method:
 
-A small-sized, limited terrain:
+A small-sized, limited with virtual memory paging:
 
 ![alt text](https://i2.wp.com/cplusplusgametricks.files.wordpress.com/2017/12/screen-shot-2017-12-19-at-10-38-31-pm.png?ssl=1&w=450)
 
@@ -26,3 +26,6 @@ Huge terrain segment with vegetation and dynamic LOD
 
 ![alt text](https://i0.wp.com/cplusplusgametricks.files.wordpress.com/2017/12/screen-shot-2017-12-27-at-10-11-12-pm.png?ssl=1&w=450)
 ![alt text](https://i0.wp.com/cplusplusgametricks.files.wordpress.com/2017/12/screen-shot-2017-12-27-at-10-11-47-pm.png?ssl=1&w=450)
+
+# Drawbacks of virtual memory paging:
+When used with a large-scale polygon engine, chunks must be paged out of virtual memory in a constructor. As a result, engine-specific multi-threading functions can not access terrain data during construction, which is probably the reason why the conventional method is so slow.
