@@ -24,8 +24,9 @@ Generated with octrees:
 
 Huge terrain segment with vegetation and dynamic LOD
 
-![alt text](https://i0.wp.com/cplusplusgametricks.files.wordpress.com/2017/12/screen-shot-2017-12-27-at-10-11-12-pm.png?ssl=1&w=450)
-![alt text](https://i0.wp.com/cplusplusgametricks.files.wordpress.com/2017/12/screen-shot-2017-12-27-at-10-11-47-pm.png?ssl=1&w=450)
+![alt text](https://i1.wp.com/cplusplusgametricks.files.wordpress.com/2018/01/screen-shot-2018-01-02-at-4-36-03-pm.png?ssl=1&w=450)
+![alt text](https://i0.wp.com/cplusplusgametricks.files.wordpress.com/2018/01/screen-shot-2017-12-28-at-10-15-13-am.png?ssl=1&w=450)
+![alt text](https://i1.wp.com/cplusplusgametricks.files.wordpress.com/2018/01/screen-shot-2018-01-02-at-4-36-54-pm.png?ssl=1&w=450)
 
 Each octree calculates the distance between the player and its central position to determine its LOD. A lower LOD indicates a larger octree with a single chunk in the same size.
 
