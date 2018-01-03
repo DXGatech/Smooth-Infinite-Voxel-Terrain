@@ -24,6 +24,8 @@ Generated with octrees:
 
 Huge terrain segment with vegetation and dynamic LOD
 
+Please note that smooth shading is supported. The lowpoly effect is intentionally created by the terrain material with DDX and DDY nodes.
+
 ![alt text](https://i1.wp.com/cplusplusgametricks.files.wordpress.com/2018/01/screen-shot-2018-01-02-at-4-36-03-pm.png?ssl=1&w=450)
 ![alt text](https://i0.wp.com/cplusplusgametricks.files.wordpress.com/2018/01/screen-shot-2017-12-28-at-10-15-13-am.png?ssl=1&w=450)
 ![alt text](https://i1.wp.com/cplusplusgametricks.files.wordpress.com/2018/01/screen-shot-2018-01-02-at-4-36-54-pm.png?ssl=1&w=450)
