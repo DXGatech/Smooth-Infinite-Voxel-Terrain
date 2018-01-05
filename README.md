@@ -1,7 +1,7 @@
 # Smooth-Infinite-Voxel-Terrain
 A voxel terrain generator that allows artists to easily create endless, diverse game worlds.
 
-dependencies: [transvoxel](transvoxel.org) and [polyvox](volumesoffun.com)
+dependencies: [transvoxel](www.transvoxel.org) and [polyvox](www.volumesoffun.com)
 
 octree: 
 
